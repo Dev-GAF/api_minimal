@@ -8,8 +8,12 @@ namespace api_minimal
         public int IdMonitor { get; set; }
 
         [Required]
+        [StringLength(11)] 
+        public string RA { get; set; } = string.Empty; // <-- adicionar isso
+
+        [Required]
         [StringLength(100)]
-        public string NOme { get; set; } = string.Empty;
+        public string Nome { get; set; } = string.Empty;
 
         [Required]
         [StringLength(50)]

@@ -7,7 +7,7 @@ dotnet new webapi -minimal -o .
 
 # Adicionar pacotes do Entity Framework Core
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-dotnet add package Microsoft.EntityFrameworkCore.Design
+
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 
 # Criar pastas para Models e Data
